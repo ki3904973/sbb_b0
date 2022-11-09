@@ -303,7 +303,7 @@ async def insta_dl(event):
         return await edit_delete(event, "**⌔∮ يجب عليك وضع رابط للبحث عنه**", 10)
     if "instagram.com" not in link:
         return await edit_delete(
-            event, "**❃ عذرا هذه الميزه للتحميل من الانستجرام فقط**", 10
+            event, "**❃ عذرا هذه الميزه للتحميل من الانستا فقط**", 10
         )
     # v1 = "@instasave_bot"
     v1 = "@IgGramBot"
