@@ -102,7 +102,7 @@ async def fetch_info(replied_user, event):
 
 @sbb_b.ar_cmd(pattern="ايدي(?: |$)(.*)")
 async def who(event):
-    roz = await edit_or_reply(event, "**⌔∮ جار التعرف على المستخدم انتظر قليلا**")
+    roz = await edit_or_reply(*جار التعرف على المستخدم انتظر قليل"**")
     if not os.path.isdir(Config.TMP_DOWNLOAD_DIRECTORY):
         os.makedirs(Config.TMP_DOWNLOAD_DIRECTORY)
     replied_user = await get_user_from_event(event)
